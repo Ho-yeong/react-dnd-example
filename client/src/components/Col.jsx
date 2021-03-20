@@ -5,3 +5,5 @@ const Col = ({ isOver, children }) => {
 
   return <div className={`col${className}`}>{children}</div>;
 };
+
+export default Col;
